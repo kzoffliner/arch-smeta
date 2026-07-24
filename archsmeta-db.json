@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": "6ab4047c-8c85-4c81-9eb4-948dc15e4ad8",
+      "email": "samat.serikhanov@mail.ru",
+      "name": "samat.serikhanov",
+      "passwordHash": "749703f5d0d58ec9c3c6dd926093c80bcfdc6f0fce4fc378bbf191c29358d28b61400e9f4d623216f364582df0ef8cd4539e9ab4dc0d628209345b374e21c391"
+    },
+    {
+      "id": "577ce93e-dbfe-48cd-ba48-27b6b07ccf38",
+      "email": "samat@mail.ru",
+      "name": "samat",
+      "passwordHash": "7c5559f2790394aae8b18259fd57494bad5c56884a209ddb583d3fd131ec86af60584b04361c01ec800ecf683f04776a22ea19d1633fa9d83d3b94e90f126b81"
+    },
+    {
+      "id": "033b7479-d61e-469c-b970-b7220e237482",
+      "email": "samat1@mail.ru",
+      "name": "samat1",
+      "passwordHash": "f0e9b525ac43e9dfba2e8931755f79f869a22e0430061c87b944e19463053aa676fc359af4af8ac1e46b069b0f6fe80a3491e16a23b4059979ec4a22a4fe6668"
+    }
+  ],
+  "state": {
+    "screen": "dashboard",
+    "mode": "register",
+    "role": "Дизайнер",
+    "section": "Настройки профиля",
+    "expenseFilter": "all",
+    "users": [],
+    "user": {
+      "id": "033b7479-d61e-469c-b970-b7220e237482",
+      "email": "samat1@mail.ru",
+      "name": "Samat Serikhanov",
+      "avatar": ""
+    },
+    "projects": [
+      {
+        "id": "p1",
+        "name": "Квартира на Назарбаева",
+        "budget": 18500000,
+        "reserve": 1250000,
+        "address": "г. Алматы, пр. Назарбаева 223",
+        "start": "2026-07-20",
+        "days": 120,
+        "data": {
+          "expenses": [],
+          "works": [],
+          "participants": [],
+          "uploads": {},
+          "categories": {
+            "Чертежи": [],
+            "3D-визуализация": [],
+            "Документы": [],
+            "Журнал этапов ремонта": [
+              "Коридор"
+            ]
+          },
+          "calendarItems": []
+        }
+      },
+      {
+        "id": "4c69bd21-46de-46b5-864f-598b5a1e5ae1",
+        "name": "София",
+        "budget": 15000000,
+        "reserve": 0,
+        "address": "София",
+        "start": "2026-07-24",
+        "days": 90,
+        "data": {
+          "expenses": [],
+          "works": [],
+          "participants": [],
+          "uploads": {},
+          "categories": {
+            "Чертежи": [],
+            "3D-визуализация": [],
+            "Документы": [],
+            "Журнал этапов ремонта": []
+          },
+          "calendarItems": []
+        }
+      },
+      {
+        "id": "2b47a2d5-c866-4b98-a716-4a8eabd84dbb",
+        "name": "123",
+        "budget": 123,
+        "reserve": 0,
+        "address": "123",
+        "start": "2026-07-24",
+        "days": 90,
+        "data": {
+          "expenses": [],
+          "works": [],
+          "participants": [],
+          "uploads": {},
+          "categories": {
+            "Чертежи": [],
+            "3D-визуализация": [],
+            "Документы": [],
+            "Журнал этапов ремонта": []
+          },
+          "calendarItems": []
+        }
+      }
+    ],
+    "projectIndex": 2,
+    "uploads": {},
+    "categories": {
+      "Чертежи": [],
+      "3D-визуализация": [],
+      "Документы": [],
+      "Журнал этапов ремонта": []
+    },
+    "works": [],
+    "calendarItems": [],
+    "participants": [],
+    "project": {
+      "id": "2b47a2d5-c866-4b98-a716-4a8eabd84dbb",
+      "name": "123",
+      "budget": 123,
+      "reserve": 0,
+      "address": "123",
+      "start": "2026-07-24",
+      "days": 90,
+      "data": {
+        "expenses": [],
+        "works": [],
+        "participants": [],
+        "uploads": {},
+        "categories": {
+          "Чертежи": [],
+          "3D-визуализация": [],
+          "Документы": [],
+          "Журнал этапов ремонта": []
+        },
+        "calendarItems": []
+      }
+    },
+    "expenses": []
+  }
+}
