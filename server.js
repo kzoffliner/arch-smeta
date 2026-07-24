@@ -17,6 +17,8 @@ const cookies = req => Object.fromEntries((req.headers.cookie || '').split(';').
 const json = (res, status, body) => { res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8' }); res.end(JSON.stringify(body)); };
 const userView = user => ({ id: user.id, email: user.email, name: user.name, avatar: user.avatar || '' });
 
+const PORT = process.env.PORT || 3000;
+
 http.createServer(async (req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   if (url.pathname.startsWith('/api/')) {
@@ -57,8 +59,6 @@ http.createServer(async (req, res) => {
   const types = { '.html':'text/html; charset=utf-8', '.js':'application/javascript; charset=utf-8', '.css':'text/css; charset=utf-8' };
   res.writeHead(200, { 'Content-Type': types[path.extname(full)] || 'application/octet-stream' });
   fs.createReadStream(full).pipe(res);
-const PORT = process.env.PORT || 3000;
-
 }).listen(PORT, '0.0.0.0', () => {
   console.log(`Archsmeta: http://0.0.0.0:${PORT}`);
 });
