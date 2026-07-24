@@ -57,4 +57,8 @@ http.createServer(async (req, res) => {
   const types = { '.html':'text/html; charset=utf-8', '.js':'application/javascript; charset=utf-8', '.css':'text/css; charset=utf-8' };
   res.writeHead(200, { 'Content-Type': types[path.extname(full)] || 'application/octet-stream' });
   fs.createReadStream(full).pipe(res);
-}).listen(3000, '0.0.0.0', () => console.log('Archsmeta: http://0.0.0.0:3000'));
+const PORT = process.env.PORT || 3000;
+
+}).listen(PORT, '0.0.0.0', () => {
+  console.log(`Archsmeta: http://0.0.0.0:${PORT}`);
+});
